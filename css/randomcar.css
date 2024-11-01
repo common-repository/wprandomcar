@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Mod: Random Car */
+#randomCar {
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+	background: #fff;
+	color: #000;
+	padding: 10px;
+	font-size: 10px;
+}
+
+#randomCar h3 {
+	font-size: 12px;
+	color: #000;
+}
+
+#randomCar ul {
+	list-style: none;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-left: 0px;
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+#randomCar li {
+	width: 215px;
+	height: 200px;
+	float: left;
+	padding-left: 10px;
+	padding-bottom: 30px;
+}
+
+#randomCar img {
+	padding-right: 10px;	
+}
+
+#randomCar div.preview {
+	float: left;
+	padding-right: 8px;
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+#randomCar div.price {
+	padding-top: 10px;
+	color: red;
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+#randomCar a.author, a.author {
+	font-size: 8px;
+	color: #ccc;
+	float: right;
+	clear: all;
+	background: #000;
+}
+
+#randomCar a {
+	color: #fff;
+	background: #000;
+}
